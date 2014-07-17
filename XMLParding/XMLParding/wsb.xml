@@ -1,0 +1,27 @@
+<frame id="13" type="multiQuests">
+    <section_title><![CDATA[Learning Activity]]></section_title>
+    <frame_title><![CDATA[]]></frame_title>
+    <questions totalQestions='2'>
+        <question type="drag_drop">
+            <img></img>
+            <quest>Match the following.</quest>
+            <desc1>1. Central cores</desc1>
+            <desc2>2. Limbic system</desc2>
+            <desc3>3. Cerebrum</desc3>
+            <drop1></drop1>
+            <drop2></drop2>
+            <drop3></drop3>
+            <drag1 corrOption='3'>divided into two hemispheres</drag1>
+            <drag2 corrOption='1'>brain stem, cerebellum</drag2>
+            <drag3 corrOption='2'>basal ganglia</drag3>
+            <correct>Correct.</correct>
+            <incorrect>Incorrect.</incorrect>
+        </question>
+        <question type="truefalse">
+            <statement1>Damage to motor cortex results in poor awareness of limb position.</statement1>
+            <result1>False</result1>
+        </question>
+    </questions>
+    <transcript><![CDATA[You will now be presented with a learning activity.]]></transcript>
+    <popup><![CDATA[]]></popup>
+</frame>

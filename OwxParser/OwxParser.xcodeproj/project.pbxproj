@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47913A23196A54A200FFEE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47913A22196A54A200FFEE2D /* Foundation.framework */; };
+		47913A25196A54A200FFEE2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47913A24196A54A200FFEE2D /* CoreGraphics.framework */; };
+		47913A27196A54A200FFEE2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47913A26196A54A200FFEE2D /* UIKit.framework */; };
+		47913A2D196A54A200FFEE2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47913A2B196A54A200FFEE2D /* InfoPlist.strings */; };
+		47913A2F196A54A200FFEE2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47913A2E196A54A200FFEE2D /* main.m */; };
+		47913A33196A54A200FFEE2D /* HumzaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47913A32196A54A200FFEE2D /* HumzaAppDelegate.m */; };
+		47913A36196A54A200FFEE2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47913A34196A54A200FFEE2D /* Main.storyboard */; };
+		47913A39196A54A200FFEE2D /* HumzaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47913A38196A54A200FFEE2D /* HumzaViewController.m */; };
+		47913A3B196A54A200FFEE2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47913A3A196A54A200FFEE2D /* Images.xcassets */; };
+		47913A42196A54A200FFEE2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47913A41196A54A200FFEE2D /* XCTest.framework */; };
+		47913A43196A54A200FFEE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47913A22196A54A200FFEE2D /* Foundation.framework */; };
+		47913A44196A54A200FFEE2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47913A26196A54A200FFEE2D /* UIKit.framework */; };
+		47913A4C196A54A200FFEE2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47913A4A196A54A200FFEE2D /* InfoPlist.strings */; };
+		47913A4E196A54A200FFEE2D /* OwxParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47913A4D196A54A200FFEE2D /* OwxParserTests.m */; };
+		47913A58196A54D300FFEE2D /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 47913A57196A54D300FFEE2D /* test.xml */; };
+		47913A5B196A54E900FFEE2D /* tags.m in Sources */ = {isa = PBXBuildFile; fileRef = 47913A5A196A54E900FFEE2D /* tags.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47913A45196A54A200FFEE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47913A17196A54A200FFEE2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47913A1E196A54A200FFEE2D;
+			remoteInfo = OwxParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47913A1F196A54A200FFEE2D /* OwxParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwxParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47913A22196A54A200FFEE2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47913A24196A54A200FFEE2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47913A26196A54A200FFEE2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47913A2A196A54A200FFEE2D /* OwxParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OwxParser-Info.plist"; sourceTree = "<group>"; };
+		47913A2C196A54A200FFEE2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47913A2E196A54A200FFEE2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47913A30196A54A200FFEE2D /* OwxParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OwxParser-Prefix.pch"; sourceTree = "<group>"; };
+		47913A31196A54A200FFEE2D /* HumzaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumzaAppDelegate.h; sourceTree = "<group>"; };
+		47913A32196A54A200FFEE2D /* HumzaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumzaAppDelegate.m; sourceTree = "<group>"; };
+		47913A35196A54A200FFEE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47913A37196A54A200FFEE2D /* HumzaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumzaViewController.h; sourceTree = "<group>"; };
+		47913A38196A54A200FFEE2D /* HumzaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumzaViewController.m; sourceTree = "<group>"; };
+		47913A3A196A54A200FFEE2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47913A40196A54A200FFEE2D /* OwxParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwxParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47913A41196A54A200FFEE2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47913A49196A54A200FFEE2D /* OwxParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OwxParserTests-Info.plist"; sourceTree = "<group>"; };
+		47913A4B196A54A200FFEE2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47913A4D196A54A200FFEE2D /* OwxParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwxParserTests.m; sourceTree = "<group>"; };
+		47913A57196A54D300FFEE2D /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		47913A59196A54E900FFEE2D /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tags.h; sourceTree = "<group>"; };
+		47913A5A196A54E900FFEE2D /* tags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tags.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47913A1C196A54A200FFEE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47913A25196A54A200FFEE2D /* CoreGraphics.framework in Frameworks */,
+				47913A27196A54A200FFEE2D /* UIKit.framework in Frameworks */,
+				47913A23196A54A200FFEE2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47913A3D196A54A200FFEE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47913A42196A54A200FFEE2D /* XCTest.framework in Frameworks */,
+				47913A44196A54A200FFEE2D /* UIKit.framework in Frameworks */,
+				47913A43196A54A200FFEE2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47913A16196A54A200FFEE2D = {
+			isa = PBXGroup;
+			children = (
+				47913A28196A54A200FFEE2D /* OwxParser */,
+				47913A47196A54A200FFEE2D /* OwxParserTests */,
+				47913A21196A54A200FFEE2D /* Frameworks */,
+				47913A20196A54A200FFEE2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47913A20196A54A200FFEE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47913A1F196A54A200FFEE2D /* OwxParser.app */,
+				47913A40196A54A200FFEE2D /* OwxParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47913A21196A54A200FFEE2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47913A22196A54A200FFEE2D /* Foundation.framework */,
+				47913A24196A54A200FFEE2D /* CoreGraphics.framework */,
+				47913A26196A54A200FFEE2D /* UIKit.framework */,
+				47913A41196A54A200FFEE2D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47913A28196A54A200FFEE2D /* OwxParser */ = {
+			isa = PBXGroup;
+			children = (
+				47913A59196A54E900FFEE2D /* tags.h */,
+				47913A5A196A54E900FFEE2D /* tags.m */,
+				47913A57196A54D300FFEE2D /* test.xml */,
+				47913A31196A54A200FFEE2D /* HumzaAppDelegate.h */,
+				47913A32196A54A200FFEE2D /* HumzaAppDelegate.m */,
+				47913A34196A54A200FFEE2D /* Main.storyboard */,
+				47913A37196A54A200FFEE2D /* HumzaViewController.h */,
+				47913A38196A54A200FFEE2D /* HumzaViewController.m */,
+				47913A3A196A54A200FFEE2D /* Images.xcassets */,
+				47913A29196A54A200FFEE2D /* Supporting Files */,
+			);
+			path = OwxParser;
+			sourceTree = "<group>";
+		};
+		47913A29196A54A200FFEE2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47913A2A196A54A200FFEE2D /* OwxParser-Info.plist */,
+				47913A2B196A54A200FFEE2D /* InfoPlist.strings */,
+				47913A2E196A54A200FFEE2D /* main.m */,
+				47913A30196A54A200FFEE2D /* OwxParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47913A47196A54A200FFEE2D /* OwxParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				47913A4D196A54A200FFEE2D /* OwxParserTests.m */,
+				47913A48196A54A200FFEE2D /* Supporting Files */,
+			);
+			path = OwxParserTests;
+			sourceTree = "<group>";
+		};
+		47913A48196A54A200FFEE2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47913A49196A54A200FFEE2D /* OwxParserTests-Info.plist */,
+				47913A4A196A54A200FFEE2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47913A1E196A54A200FFEE2D /* OwxParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47913A51196A54A200FFEE2D /* Build configuration list for PBXNativeTarget "OwxParser" */;
+			buildPhases = (
+				47913A1B196A54A200FFEE2D /* Sources */,
+				47913A1C196A54A200FFEE2D /* Frameworks */,
+				47913A1D196A54A200FFEE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OwxParser;
+			productName = OwxParser;
+			productReference = 47913A1F196A54A200FFEE2D /* OwxParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47913A3F196A54A200FFEE2D /* OwxParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47913A54196A54A200FFEE2D /* Build configuration list for PBXNativeTarget "OwxParserTests" */;
+			buildPhases = (
+				47913A3C196A54A200FFEE2D /* Sources */,
+				47913A3D196A54A200FFEE2D /* Frameworks */,
+				47913A3E196A54A200FFEE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47913A46196A54A200FFEE2D /* PBXTargetDependency */,
+			);
+			name = OwxParserTests;
+			productName = OwxParserTests;
+			productReference = 47913A40196A54A200FFEE2D /* OwxParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47913A17196A54A200FFEE2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Humza;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					47913A3F196A54A200FFEE2D = {
+						TestTargetID = 47913A1E196A54A200FFEE2D;
+					};
+				};
+			};
+			buildConfigurationList = 47913A1A196A54A200FFEE2D /* Build configuration list for PBXProject "OwxParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47913A16196A54A200FFEE2D;
+			productRefGroup = 47913A20196A54A200FFEE2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47913A1E196A54A200FFEE2D /* OwxParser */,
+				47913A3F196A54A200FFEE2D /* OwxParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47913A1D196A54A200FFEE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47913A3B196A54A200FFEE2D /* Images.xcassets in Resources */,
+				47913A2D196A54A200FFEE2D /* InfoPlist.strings in Resources */,
+				47913A36196A54A200FFEE2D /* Main.storyboard in Resources */,
+				47913A58196A54D300FFEE2D /* test.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47913A3E196A54A200FFEE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47913A4C196A54A200FFEE2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47913A1B196A54A200FFEE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47913A5B196A54E900FFEE2D /* tags.m in Sources */,
+				47913A33196A54A200FFEE2D /* HumzaAppDelegate.m in Sources */,
+				47913A2F196A54A200FFEE2D /* main.m in Sources */,
+				47913A39196A54A200FFEE2D /* HumzaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47913A3C196A54A200FFEE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47913A4E196A54A200FFEE2D /* OwxParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47913A46196A54A200FFEE2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47913A1E196A54A200FFEE2D /* OwxParser */;
+			targetProxy = 47913A45196A54A200FFEE2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47913A2B196A54A200FFEE2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47913A2C196A54A200FFEE2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47913A34196A54A200FFEE2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47913A35196A54A200FFEE2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47913A4A196A54A200FFEE2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47913A4B196A54A200FFEE2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47913A4F196A54A200FFEE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47913A50196A54A200FFEE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47913A52196A54A200FFEE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OwxParser/OwxParser-Prefix.pch";
+				INFOPLIST_FILE = "OwxParser/OwxParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47913A53196A54A200FFEE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OwxParser/OwxParser-Prefix.pch";
+				INFOPLIST_FILE = "OwxParser/OwxParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47913A55196A54A200FFEE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OwxParser.app/OwxParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OwxParser/OwxParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OwxParserTests/OwxParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47913A56196A54A200FFEE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OwxParser.app/OwxParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OwxParser/OwxParser-Prefix.pch";
+				INFOPLIST_FILE = "OwxParserTests/OwxParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47913A1A196A54A200FFEE2D /* Build configuration list for PBXProject "OwxParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47913A4F196A54A200FFEE2D /* Debug */,
+				47913A50196A54A200FFEE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47913A51196A54A200FFEE2D /* Build configuration list for PBXNativeTarget "OwxParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47913A52196A54A200FFEE2D /* Debug */,
+				47913A53196A54A200FFEE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47913A54196A54A200FFEE2D /* Build configuration list for PBXNativeTarget "OwxParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47913A55196A54A200FFEE2D /* Debug */,
+				47913A56196A54A200FFEE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47913A17196A54A200FFEE2D /* Project object */;
+}

@@ -1,0 +1,37 @@
+<dagensretlist>
+    <dagensret id="1">
+        <day>mandag</day>
+        <date>Mandag 2. juli</date>
+        <name>Kylling fillet med rosti og salat</name>
+        <description>Den sprodeste kyllingfillet med Antons piksved</description>
+    </dagensret>
+    
+     <dagensret id="2"   >
+         <day>tirsdag</day>
+        <date>Tirsdag 3. juli</date>
+        <name>Kylling fillet med rosti og salat</name>
+        <description>Den sprodeste kyllingfillet med Antons piksved</description>
+    </dagensret>
+    
+    <dagensret id = "3">
+        <day>onsdag</day>
+        <date>Onsdag 4. juli</date>
+        <name>Kylling fillet med rosti og salat</name>
+        <description>Den sprodeste kyllingfillet med Antons piksved</description>
+    </dagensret>
+    
+    <dagensret id = "4">
+        <day>torsdag</day>
+        <date>Torsdag 5. juli</date>
+        <name>Kylling fillet med rosti og salat</name>
+        <description>Den sprodeste kyllingfillet med Antons piksved</description>
+    </dagensret>
+
+<dagensret id = "5">
+    <day>fredag</day>
+    <date>Fredag 6. juli</date>
+    <name>Kylling fillet med rosti og salat</name>
+    <description>Den sprodeste kyllingfillet med Antons piksved</description>
+</dagensret>
+
+</dagensretlist>
