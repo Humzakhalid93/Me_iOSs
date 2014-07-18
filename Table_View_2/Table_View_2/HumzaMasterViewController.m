@@ -71,7 +71,7 @@
 //    cell.textLabel.text = [object description];
 //    return cell;
 
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBasicCell" ];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBasicCell"];
     RWTScaryBugDoc *bug= [_bugs objectAtIndex:indexPath.row];
     cell.textLabel.text = bug.data.Title;
     NSLog(@"%@",cell.textLabel.text);
